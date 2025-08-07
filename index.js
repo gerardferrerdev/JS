@@ -120,3 +120,20 @@ greet("Reiden");
 console.log("--------------------------------------------------------------------------")
 
 
+function sun(a, b){
+    return a + b
+}
+
+let result = sun(1, 2)
+console.log(result)
+
+console.log("--------------------------------------------------------------------------")
+
+function fatorial(nume){
+    let resultado = 1;
+    for ( let i = 1; i <= nume ; i++ ){
+        resultado *= i
+    }
+    return resultado
+}
+console.log(fatorial(2));
